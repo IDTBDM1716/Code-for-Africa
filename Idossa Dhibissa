@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My Awesome Website</title>
+</head>
+<body>
+    <h1>Welcome to Our Website</h1>
+    <h2>We're Here to Serve You!</h2>
+    <h3>Remember Us!</h3>
+
+    <!-- Paragraphs -->
+    <p>3.5. HTML Forms
+        We can create a form in HTML by using the form opening and closing tags.
+        Inside our Form element, we have inputs and a submit button. Some of our inputs will be of type text, and
+        our submit button will actually be an input of type submit.</p>
+    <p>Form tags
+        When we work with HTML forms in the real world, there are three attributes that we need to add to our opening form tag.
+        The <form> tag takes the three attributes: Method, Action, and enctype.</p>
+
+    <!-- Contact Information -->
+    <p>If you have any questions, feel free to <a href="mailto:idodawit@gmail">email me</a>.</p>
+
+    <address>Harar, Ethiopia</address>
+
+    <!-- Preformatted Text -->
+    <pre>This is an HTML course
+which is quite interesting.</pre>
+<br>
+    <!-- Links -->
+    <a href="https://www.dyclassroom.com">Visit dyclassroom.com</a>
+
+    <!-- Image -->
+    <img src="https://www.dyclassroom.com/image/dyclassroom-logo-black-311x48.png" alt="Dyclassroom Logo">
+<br>
+    <!-- Images -->
+    <img src="land.jpg" width="800px" height="400px" alt="Land Image">
+
+    <!-- Table -->
+    <table>
+        <tr>
+            <td>Join your life!</td>
+            <td>We live once. Remember.</td>
+        </tr>
+        <tr>
+            <td>Knowledge is power!</td>
+            <td>This is today's takeaway for your life.</td>
+        </tr>
+    </table>
+
+    <!-- Horizontal Rule -->
+    <hr>
+
+    <!-- Styled Table -->
+    <table border="5" cellspacing="10" cellpadding="10" style="border-color: red; background-color: lightyellow;">
+        <caption>Life Table</caption>
+        <thead>
+            <tr>
+                <th>Yesterday is history</th>
+                <th>Tomorrow is mystery</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="2">Today is yours</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Education</td>
+                <td>University life</td>
+            </tr>
+            <tr>
+                <td>Challenges</td>
+                <td>Solutions</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Buttons -->
+    <button onclick="alert('Button clicked')">Click me</button>
+    <button onclick="btnClicked();">Click me too</button>
+
+    <!-- Registration Form -->
+    <form>
+        First name:
+        <input type="text" name="firstname" />
+        <br />
+        Last name:
+        <input type="text" name="lastname" />
+        <br />
+        <input type="submit" value="Register" />
+    </form>
+
+    <!-- Video -->
+    <video width="640" height="380" controls>
+        <source src="myweb.html.mp4" type="video/mp4">
+    </video>
+
+    <!-- Audio -->
+    <audio controls>
+        <source src="DJ_Snake_-_Magenta_Riddim(360p).mp4.mp3" type="audio/mp3">
+    </audio>
+</body>
+</html>
